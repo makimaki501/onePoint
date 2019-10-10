@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/Texture/black.BMP","C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/bin/Windows/Texture/black.xnb","TextureProcessor","Texture2DContent",12342,16469,0.1077125
+"C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/Texture/persona.png","C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/bin/Windows/Texture/persona.xnb","TextureProcessor","Texture2DContent",4862,201685,0.1266624
+"C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/Texture/persona1.png","C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/bin/Windows/Texture/persona1.xnb","TextureProcessor","Texture2DContent",5232,201685,0.0089747
+"C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/Texture/white.BMP","C:/Users/sakam/Desktop/10月チーム制作/MusicGame/MusicGame/Content/bin/Windows/Texture/white.xnb","TextureProcessor","Texture2DContent",12342,16469,0.0019948

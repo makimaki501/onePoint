@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/black.BMP","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Content/Texture/black.xnb","TextureProcessor","Texture2DContent",12342,16469,0.1047208
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Content/Texture/persona.xnb","TextureProcessor","Texture2DContent",4862,201685,0.0269271
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona1.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Content/Texture/persona1.xnb","TextureProcessor","Texture2DContent",5232,201685,0.0059827
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/white.BMP","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Content/Texture/white.xnb","TextureProcessor","Texture2DContent",12342,16469,0.0009962
