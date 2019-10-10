@@ -17,7 +17,7 @@ namespace MusicGame.Actor
         private Vector2 position;
         private float r = 128;//半径
         private float radian;
-        private float degree = 0;
+        private float degree;
         private Vector2 Pos;
         private bool reset;
 
@@ -52,13 +52,19 @@ namespace MusicGame.Actor
             {
                 if (reset)
                 {
-                    //radian = 0;
+                    radian = 0;
                     reset = false;
                 }
                 radian = degree * MathHelper.Pi / 360;
                 degree += 12f;
                 position.X = r * (float)Math.Cos(radian) + Pos.X;
                 position.Y = r * (float)Math.Sin(radian) + Pos.Y;
+            }
+
+            if (Input.GetKeyState(Keys.Enter))
+            {
+                degree -= 11.9f;
+
             }
 
             if (Input.GetKeyTrigger(Keys.Space))
@@ -77,14 +83,14 @@ namespace MusicGame.Actor
         {
             this.Pos = Pos;
         }
-        public void SetDegree(float degree)
+        public void SetDegree(float radian)
         {
-            this.degree = degree;
+            this.radian = radian;
         }
 
         public float GetDegree()
         {
-            return degree;
+            return radian;
         }
 
         public bool IsStop()
