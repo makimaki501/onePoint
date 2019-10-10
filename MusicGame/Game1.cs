@@ -9,7 +9,7 @@ using MusicGame.Scene;
 namespace MusicGame
 {
     /// <summary>
-    /// This is the main type for your game.
+    /// This is the main type for your game.aaa
     /// </summary>
     public class Game1 : Game
     {
