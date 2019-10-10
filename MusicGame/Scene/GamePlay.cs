@@ -60,7 +60,7 @@ namespace MusicGame.Scene
             player2.Update(gameTime);
             Position();
 
-            if (Input.GetKeyTrigger(Keys.Enter))
+            if (Input.GetKeyTrigger(Keys.D1))
             {
                 isEndFlag = true;
             }
@@ -73,11 +73,13 @@ namespace MusicGame.Scene
                 if (player.IsStop())
                 {
                     player.SetPosition(player2.GetPosition());
-                    player.SetDegree(player2.GetDegree()-player.GetDegree());
+                    player.SetDegree((float)Math.Atan2(player2.GetPosition().Y-player.GetPosition().Y, 
+                        player2.GetPosition().X - player.GetPosition().X)-15-180);
                 }
                 if (player2.IsStop())
                 {
-                    player2.SetDegree(player.GetDegree()-player2.GetDegree());
+                    player2.SetDegree((float)Math.Atan2(player.GetPosition().Y - player2.GetPosition().Y, 
+                        player.GetPosition().X- player2.GetPosition().X)-15-180);
                     player2.SetPosition(player.GetPosition());
                 }
             }
