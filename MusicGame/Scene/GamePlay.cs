@@ -60,7 +60,7 @@ namespace MusicGame.Scene
             player2.Update(gameTime);
             Position();
 
-            System.Console.WriteLine(player.GetDegree());
+            System.Console.WriteLine(player.GetRadian());
 
             if (Input.GetKeyTrigger(Keys.D1))
             {
@@ -74,14 +74,14 @@ namespace MusicGame.Scene
             {
                 if (player.IsStop())
                 {
-                    player.SetPosition(player2.GetPosition());
-                    player.SetDegree((float)Math.Atan2(player2.GetPosition().Y-player.GetPosition().Y, 
-                        player2.GetPosition().X - player.GetPosition().X));
+                    player.SetPos(player2.GetPosition());
+                    player.SetRadian((float)Math.Atan2(player.GetPosition().Y-player2.GetPosition().Y, 
+                        player.GetPosition().X - player2.GetPosition().X));
                 }
                 if (player2.IsStop())
                 {
-                    player2.SetDegree((float)Math.Atan2(player.GetPosition().Y - player2.GetPosition().Y, 
-                        player.GetPosition().X- player2.GetPosition().X));
+                    player2.SetDegree((float)Math.Atan2(player2.GetPosition().Y - player.GetPosition().Y, 
+                        player2.GetPosition().X- player.GetPosition().X));
                     player2.SetPosition(player.GetPosition());
                 }
             }

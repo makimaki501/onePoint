@@ -14,10 +14,10 @@ namespace MusicGame.Actor
     {
         private bool stop;
         private bool isDeadFlag;
-        private Vector2 position;
+        private Vector2 position, position2;
         private float r = 128;//半径
         private float radian;
-        private float degree;
+        private float addRadian;
         private Vector2 Pos;
         private bool reset;
 
@@ -34,11 +34,14 @@ namespace MusicGame.Actor
             stop = true;
             isDeadFlag = false;
             reset = false;
+            addRadian = 0.1f;
+            radian = 1;
         }
 
         public void Draw(Renderer renderer)
         {
             renderer.DrawTexture("white", position);
+            renderer.DrawTexture("black", position2);
         }
 
         public void Update(GameTime gameTime)
@@ -47,19 +50,34 @@ namespace MusicGame.Actor
             if (stop)
             {
                 if (reset)
-                {      
-                    radian = 0;
+                {
+                    SetRadian((float)Math.Atan2(GetPosition2().Y - GetPosition().Y,
+                        GetPosition2().X - GetPosition().X) + MathHelper.Pi);
+                    SetPos(GetPosition2());
                     reset = false;
                 }
-                radian = degree * MathHelper.Pi / 360;
-                degree += 12f;
+                radian -= addRadian;
                 position.X = r * (float)Math.Cos(radian) + Pos.X;
                 position.Y = r * (float)Math.Sin(radian) + Pos.Y;
             }
+            else
+            {
+                if (reset)
+                {
+                    SetRadian((float)Math.Atan2(GetPosition().Y - GetPosition2().Y,
+                        GetPosition().X - GetPosition2().X) + MathHelper.Pi);
+                    SetPos(GetPosition());
+                    reset = false;
+                }
+                radian -= addRadian;
+                position2.X = r * (float)Math.Cos(radian) + Pos.X;
+                position2.Y = r * (float)Math.Sin(radian) + Pos.Y;
+            }
+
 
             if (Input.GetKeyState(Keys.Enter))
             {
-                degree -= 11.9f;
+                radian += 0.095f;
             }
 
             if (Input.GetKeyTrigger(Keys.Space))
@@ -73,21 +91,34 @@ namespace MusicGame.Actor
         {
             return position;
         }
+        public Vector2 GetPosition2()
+        {
+            return position2;
+        }
 
-        public void SetPosition(Vector2 Pos)
+        public void SetPos(Vector2 Pos)
         {
             this.Pos = Pos;
         }
-        public void SetDegree(float radian)
-        {
-            this.radian = radian;
-        }
 
-        public float GetDegree()
+        public float GetRadian()
         {
             return radian;
         }
+        public float GetDegree()
+        {
+            float degree = radian / 2 * MathHelper.Pi * 360;
+            return degree;
+        }
+        public void SetRadian(float radian)
+        {
+            this.radian = radian;
+        }
+        public void SetDegree(float degree)
+        {
 
+            this.radian = degree / 360 * 2 * MathHelper.Pi;
+        }
         public bool IsStop()
         {
             return stop;
