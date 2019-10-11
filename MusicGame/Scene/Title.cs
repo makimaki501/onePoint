@@ -66,7 +66,22 @@ namespace MusicGame.Scene
             gameObjectManager.Update(gameTime);
             map.Update(gameTime);
             player.Update(gameTime);
-            if (Input.GetKeyTrigger(Keys.Enter))
+            //if (Input.GetKeyTrigger(Keys.Space))
+            //{
+            //    if (player.IsStop())
+            //    {
+            //        player.SetPos(player.GetPosition2());
+            //        player.SetRadian((float)Math.Atan2(player.GetPosition2().Y - player.GetPosition().Y,
+            //            player.GetPosition2().X - player.GetPosition().X));
+            //    }
+            //    else
+            //    {
+            //        player.SetPos(player.GetPosition());
+            //        player.SetRadian((float)Math.Atan2(player.GetPosition().Y - player.GetPosition2().Y,
+            //            player.GetPosition().X - player.GetPosition2().X));
+            //    }
+            //}
+            if (Input.GetKeyTrigger(Keys.D1))
             {
                 isEndFlag = true;
             }
