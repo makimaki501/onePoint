@@ -41,10 +41,15 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Actor\GameObject.cs" />
     <Compile Include="Actor\GameObjectID.cs" />
     <Compile Include="Actor\IdleBlock.cs" />
     <Compile Include="Actor\Map.cs" />
+=======
+    <Compile Include="Actor\Effect\ParticleManager.cs" />
+    <Compile Include="Actor\Effect\Particle.cs" />
+>>>>>>> moe
     <Compile Include="Actor\Player.cs" />
     <Compile Include="Actor\Player2.cs" />
     <Compile Include="Actor\Space.cs" />
