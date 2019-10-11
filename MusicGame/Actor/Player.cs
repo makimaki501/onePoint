@@ -21,12 +21,11 @@ namespace MusicGame.Actor
         private Vector2 Pos;
         private bool reset;
 
-        public Player()
+        public Player(Vector2 position)
         {
+            this.Pos = position;
             stop = true;
             isDeadFlag = false;
-            position = new Vector2(600, 300);
-            Pos = new Vector2(300, 300);
             reset = false;
         }
 
@@ -34,18 +33,12 @@ namespace MusicGame.Actor
         {
             stop = true;
             isDeadFlag = false;
-            position = new Vector2(600, 300);
-            Pos = new Vector2(300, 300);
             reset = false;
         }
 
         public void Draw(Renderer renderer)
         {
-            renderer.Begin();
-
             renderer.DrawTexture("white", position);
-
-            renderer.End();
         }
 
         public void Update(GameTime gameTime)

@@ -66,6 +66,8 @@ namespace MusicGame
             renderer.LoadContent("persona", "./Texture/");
             renderer.LoadContent("persona1", "./Texture/");
             renderer.LoadContent("Idle", "./Texture/");
+            renderer.LoadContent("Idle96", "./Texture/");
+            renderer.LoadContent("Idle128", "./Texture/");
         }
 
         /// <summary>

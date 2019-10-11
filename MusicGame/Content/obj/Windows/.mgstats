@@ -1,7 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/csv/Title.csv","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows\csv/Title.csv","CopyItem","File",1071,1071,0.0059837
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/csv/Title.csv","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows\csv/Title.csv","CopyItem","File",1071,1071,0.0049865
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/csv/Title128.csv","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows\csv/Title128.csv","CopyItem","File",279,279,0.0049846
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/csv/Title96.csv","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows\csv/Title96.csv","CopyItem","File",279,279,0.0029575
 "C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/black.BMP","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/black.xnb","TextureProcessor","Texture2DContent",12342,16469,0.3141383
-"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/Idle.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/Idle.xnb","TextureProcessor","Texture2DContent",2975,16469,0.0179593
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/Idle.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/Idle.xnb","TextureProcessor","Texture2DContent",2975,16469,0.3041884
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/Idle128.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/Idle128.xnb","TextureProcessor","Texture2DContent",1973,65621,0.0159552
+"C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/Idle96.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/Idle96.xnb","TextureProcessor","Texture2DContent",2578,36949,0.0099734
 "C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/persona.xnb","TextureProcessor","Texture2DContent",4862,201685,0.0189508
 "C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona1.png","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/persona1.xnb","TextureProcessor","Texture2DContent",5232,201685,0.0219426
 "C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/white.BMP","C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/bin/Windows/Texture/white.xnb","TextureProcessor","Texture2DContent",12342,16469,0.0049871

@@ -130,8 +130,8 @@ namespace MusicGame.Actor
         {
             Point work = gameObject.getRectangle().Location;//左上の座標を取得 
             //配列の何行何列目にいるかを計算
-            int x = work.X / 64;
-            int y = work.Y / 64;
+            int x = work.X / 128;
+            int y = work.Y /128;
 
             //移動で食い込んでる時の修正
             if (x < 1)

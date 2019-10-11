@@ -19,7 +19,7 @@ namespace MusicGame.Scene
         public GamePlay()
         {
             isEndFlag = false;
-            player = new Player();
+            //player = new Player();
             player2 = new Player2();
         }
         public void Draw(Renderer renderer)

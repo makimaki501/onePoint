@@ -54,3 +54,7 @@ C:\Users\sakam\Desktop\OnePoint\MusicGame\obj\x86\Debug\MusicGame.exe
 C:\Users\sakam\Desktop\OnePoint\MusicGame\obj\x86\Debug\MusicGame.pdb
 C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\Texture\Idle.xnb
 C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\csv\Title.csv
+C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\Texture\Idle128.xnb
+C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\Texture\Idle96.xnb
+C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\csv\Title128.csv
+C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\csv\Title96.csv

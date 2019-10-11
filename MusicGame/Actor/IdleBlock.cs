@@ -12,8 +12,9 @@ namespace MusicGame.Actor
 {
     class IdleBlock : GameObject
     {
+
         public IdleBlock(Vector2 position, GameDevice gameDevice)
-            : base("Idle", position, 64, 64, gameDevice)
+            : base("Idle128", position, 128, 128, gameDevice)
         {
 
         }

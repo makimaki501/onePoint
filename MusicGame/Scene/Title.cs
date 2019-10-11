@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using MusicGame.Device;
 using MusicGame.Actor;
+using MusicGame.Def;
 
 namespace MusicGame.Scene
 {
@@ -14,14 +15,14 @@ namespace MusicGame.Scene
     {
         private bool isEndFlag;
         private Map map;
+        private Player player;
         private GameObjectManager gameObjectManager;
 
         public Title()
         {
             isEndFlag = false;
             gameObjectManager = new GameObjectManager();
-
-            
+            player = new Player(new Vector2(Screen.Width / 2, Screen.Height / 2));
         }
 
         public void Draw(Renderer renderer)
@@ -29,6 +30,7 @@ namespace MusicGame.Scene
             renderer.Begin();
             map.Draw(renderer);
             gameObjectManager.Draw(renderer);
+            player.Draw(renderer);
             renderer.End();
         }
 
@@ -36,9 +38,10 @@ namespace MusicGame.Scene
         {
             isEndFlag = false;
             gameObjectManager.Initialize();
+            player.Initialize();
 
             map = new Map(GameDevice.Instance());
-            map.Load("Title.csv","./csv/");
+            map.Load("Title128.csv", "./csv/");
             gameObjectManager.Add(map);
 
         }
@@ -62,7 +65,8 @@ namespace MusicGame.Scene
         {
             gameObjectManager.Update(gameTime);
             map.Update(gameTime);
-            if (Input.GetKeyTrigger(Keys.Space))
+            player.Update(gameTime);
+            if (Input.GetKeyTrigger(Keys.Enter))
             {
                 isEndFlag = true;
             }

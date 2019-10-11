@@ -16,6 +16,12 @@
 #begin csv/Title.csv
 /copy:csv/Title.csv
 
+#begin csv/Title128.csv
+/copy:csv/Title128.csv
+
+#begin csv/Title96.csv
+/copy:csv/Title96.csv
+
 #begin Texture/black.BMP
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -39,6 +45,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Texture/Idle.png
+
+#begin Texture/Idle128.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Texture/Idle128.png
+
+#begin Texture/Idle96.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Texture/Idle96.png
 
 #begin Texture/persona.png
 /importer:TextureImporter
