@@ -65,6 +65,7 @@ namespace MusicGame
             renderer.LoadContent("white", "./Texture/");
             renderer.LoadContent("persona", "./Texture/");
             renderer.LoadContent("persona1", "./Texture/");
+            renderer.LoadContent("Idle", "./Texture/");
         }
 
         /// <summary>
@@ -105,7 +106,7 @@ namespace MusicGame
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.BlanchedAlmond);
 
             sceneManager.Draw(renderer);
 

@@ -5,11 +5,13 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/black.BMP</File>
+    <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/Idle.png</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona.png</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona1.png</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/white.BMP</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

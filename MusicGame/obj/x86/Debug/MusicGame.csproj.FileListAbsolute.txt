@@ -52,3 +52,5 @@ C:\Users\sakam\Desktop\OnePoint\MusicGame\obj\x86\Debug\MusicGame.csproj.CoreCom
 C:\Users\sakam\Desktop\OnePoint\MusicGame\obj\x86\Debug\MusicGame.csproj.CopyComplete
 C:\Users\sakam\Desktop\OnePoint\MusicGame\obj\x86\Debug\MusicGame.exe
 C:\Users\sakam\Desktop\OnePoint\MusicGame\obj\x86\Debug\MusicGame.pdb
+C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\Texture\Idle.xnb
+C:\Users\sakam\Desktop\OnePoint\MusicGame\bin\Windows\x86\Debug\Content\csv\Title.csv

@@ -13,6 +13,9 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin csv/Title.csv
+/copy:csv/Title.csv
+
 #begin Texture/black.BMP
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -24,6 +27,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Texture/black.BMP
+
+#begin Texture/Idle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Texture/Idle.png
 
 #begin Texture/persona.png
 /importer:TextureImporter
