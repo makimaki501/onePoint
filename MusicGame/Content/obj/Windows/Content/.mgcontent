@@ -4,11 +4,18 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+<<<<<<< HEAD
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/black.BMP</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/Idle.png</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona.png</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/persona1.png</File>
     <File>C:/Users/sakam/Desktop/OnePoint/MusicGame/Content/Texture/white.BMP</File>
+=======
+    <File>C:/Users/momom/OneDrive/デスクトップ/チーム制作/2年10月/onePoint/MusicGame/Content/Texture/black.BMP</File>
+    <File>C:/Users/momom/OneDrive/デスクトップ/チーム制作/2年10月/onePoint/MusicGame/Content/Texture/persona.png</File>
+    <File>C:/Users/momom/OneDrive/デスクトップ/チーム制作/2年10月/onePoint/MusicGame/Content/Texture/persona1.png</File>
+    <File>C:/Users/momom/OneDrive/デスクトップ/チーム制作/2年10月/onePoint/MusicGame/Content/Texture/white.BMP</File>
+>>>>>>> moe
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
