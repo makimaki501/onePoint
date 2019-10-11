@@ -41,6 +41,8 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Actor\Effect\ParticleManager.cs" />
+    <Compile Include="Actor\Effect\Particle.cs" />
     <Compile Include="Actor\Player.cs" />
     <Compile Include="Actor\Player2.cs" />
     <Compile Include="Def\Screen.cs" />
